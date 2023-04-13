@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Sarala';
+    src: url('fonts/Sarala-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 
+
+    em HTML é id     = em CSS é # (só pode um elemento)
+    em HTML é class  = em CSS é . (pode ter vários elementos)
+
+*/
+
+body {
+    background-color: #F4D35E;
+    font-family: 'Sarala';
+}
+
+main {
+    background-image: linear-gradient(45deg, #2F2325 40%, #8E5D52);
+    border-radius: 30px;
+    width: 800px;
+    padding: 30px;
+    margin: auto;
+}
+
+h1 {
+    color: #00D9C0;
+}
+
+h2 {
+    color: #F4D35E;
+}
+
+h1#principal {
+    text-align: center;
+    color: #D8D2E1;
+    text-shadow: 2px 2px 2px rgb(34, 34, 34);
+    padding: 20px;
+}
+
+p {
+    color: #D8D2E1;
+}
+
+.basico {
+    color: rgb(99, 214, 99);
+}
+
+.intermediario {
+    color: rgb(247, 247, 57);
+}
+
+.avancado {
+    color: rgb(199, 33, 33);
+}
+
+.destaque {
+    background-color: #b6786ac7;
+}
